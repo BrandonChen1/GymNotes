@@ -16,11 +16,15 @@ struct TrackHeaderView: View {
                 Text("")
                 Text ("GymNotes").foregroundStyle(.black).bold()
                 Spacer()
-                Image("calendar").resizable().frame(width:40, height:40)
-                
-                Image("plus").resizable().frame(width:40, height:40)
-                
-                Image("settings").resizable().frame(width:40, height:40)
+                NavigationLink(destination: CalendarView(calendar: .current), label: {
+                    Image("calendar").resizable().frame(width:40, height:40)
+                })
+                NavigationLink(destination: NewExerciseView(), label: {
+                    Image("plus").resizable().frame(width:40, height:40)
+                })
+                NavigationLink(destination: SettingsView(), label: {
+                    Image("settings").resizable().frame(width:40, height:40)
+                })
                 Text("")
             }
             

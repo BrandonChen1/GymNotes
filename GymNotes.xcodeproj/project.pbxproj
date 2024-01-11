@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0C1FF82B4E52200016493B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA0C1FF72B4E52200016493B /* GoogleService-Info.plist */; };
 		CA1E49942B4CF9670014234F /* GymNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E49932B4CF9670014234F /* GymNotesApp.swift */; };
 		CA1E49962B4CF9670014234F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E49952B4CF9670014234F /* MainView.swift */; };
 		CA1E49982B4CF9690014234F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1E49972B4CF9690014234F /* Assets.xcassets */; };
@@ -16,7 +17,6 @@
 		CA1E49B22B4CF9690014234F /* GymNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E49B12B4CF9690014234F /* GymNotesUITestsLaunchTests.swift */; };
 		CA1E49C22B4CFC9C0014234F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CA1E49C12B4CFC9C0014234F /* FirebaseFirestore */; };
 		CA1E49C42B4CFC9C0014234F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CA1E49C32B4CFC9C0014234F /* FirebaseFirestoreSwift */; };
-		CACF07592B4DFB62000A312F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CACF07582B4DFB62000A312F /* GoogleService-Info.plist */; };
 		CACF075F2B4DFCF4000A312F /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF075E2B4DFCF4000A312F /* TrackView.swift */; };
 		CACF07622B4DFD17000A312F /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF07612B4DFD17000A312F /* HistoryView.swift */; };
 		CACF07642B4DFD23000A312F /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF07632B4DFD23000A312F /* CalendarView.swift */; };
@@ -34,6 +34,8 @@
 		CACF077C2B4DFEFF000A312F /* NewExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF077B2B4DFEFF000A312F /* NewExerciseViewModel.swift */; };
 		CACF07852B4E3A85000A312F /* TrackHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF07842B4E3A85000A312F /* TrackHeaderView.swift */; };
 		CACF078A2B4E3CA9000A312F /* TrackDateNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF07892B4E3CA9000A312F /* TrackDateNavigatorView.swift */; };
+		CAE7655F2B4F872800764542 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7655E2B4F872800764542 /* SettingsView.swift */; };
+		CAE765612B4F88D900764542 /* ExerciseWithSetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE765602B4F88D900764542 /* ExerciseWithSetsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA0C1FF72B4E52200016493B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CA1E49902B4CF9670014234F /* GymNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1E49932B4CF9670014234F /* GymNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymNotesApp.swift; sourceTree = "<group>"; };
 		CA1E49952B4CF9670014234F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -66,7 +69,6 @@
 		CA1E49AF2B4CF9690014234F /* GymNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymNotesUITests.swift; sourceTree = "<group>"; };
 		CA1E49B12B4CF9690014234F /* GymNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CACF07572B4DFA69000A312F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		CACF07582B4DFB62000A312F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CACF075E2B4DFCF4000A312F /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
 		CACF07612B4DFD17000A312F /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		CACF07632B4DFD23000A312F /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,8 @@
 		CACF077B2B4DFEFF000A312F /* NewExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExerciseViewModel.swift; sourceTree = "<group>"; };
 		CACF07842B4E3A85000A312F /* TrackHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackHeaderView.swift; sourceTree = "<group>"; };
 		CACF07892B4E3CA9000A312F /* TrackDateNavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDateNavigatorView.swift; sourceTree = "<group>"; };
+		CAE7655E2B4F872800764542 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CAE765602B4F88D900764542 /* ExerciseWithSetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseWithSetsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,12 +180,13 @@
 			children = (
 				CA1E49952B4CF9670014234F /* MainView.swift */,
 				CACF075E2B4DFCF4000A312F /* TrackView.swift */,
+				CAE765622B4F88EF00764542 /* TrackViews */,
 				CACF07612B4DFD17000A312F /* HistoryView.swift */,
 				CACF07632B4DFD23000A312F /* CalendarView.swift */,
 				CACF07652B4DFD4B000A312F /* ExercisePickerView.swift */,
 				CACF07672B4DFE00000A312F /* NewExerciseView.swift */,
-				CACF07842B4E3A85000A312F /* TrackHeaderView.swift */,
-				CACF07892B4E3CA9000A312F /* TrackDateNavigatorView.swift */,
+				CAE7655E2B4F872800764542 /* SettingsView.swift */,
+				CAE765602B4F88D900764542 /* ExerciseWithSetsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,12 +218,21 @@
 		CACF07562B4DFA62000A312F /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				CACF07582B4DFB62000A312F /* GoogleService-Info.plist */,
+				CA0C1FF72B4E52200016493B /* GoogleService-Info.plist */,
 				CA1E49972B4CF9690014234F /* Assets.xcassets */,
 				CA1E49932B4CF9670014234F /* GymNotesApp.swift */,
 				CACF07572B4DFA69000A312F /* GoogleService-Info.plist */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		CAE765622B4F88EF00764542 /* TrackViews */ = {
+			isa = PBXGroup;
+			children = (
+				CACF07842B4E3A85000A312F /* TrackHeaderView.swift */,
+				CACF07892B4E3CA9000A312F /* TrackDateNavigatorView.swift */,
+			);
+			path = TrackViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,7 +348,7 @@
 			files = (
 				CA1E499C2B4CF9690014234F /* Preview Assets.xcassets in Resources */,
 				CA1E49982B4CF9690014234F /* Assets.xcassets in Resources */,
-				CACF07592B4DFB62000A312F /* GoogleService-Info.plist in Resources */,
+				CA0C1FF82B4E52200016493B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +378,7 @@
 				CACF076A2B4DFE41000A312F /* Exercise.swift in Sources */,
 				CACF07742B4DFED6000A312F /* TrackViewModel.swift in Sources */,
 				CACF07642B4DFD23000A312F /* CalendarView.swift in Sources */,
+				CAE7655F2B4F872800764542 /* SettingsView.swift in Sources */,
 				CACF07682B4DFE00000A312F /* NewExerciseView.swift in Sources */,
 				CA1E49962B4CF9670014234F /* MainView.swift in Sources */,
 				CACF07622B4DFD17000A312F /* HistoryView.swift in Sources */,
@@ -377,6 +392,7 @@
 				CA1E49942B4CF9670014234F /* GymNotesApp.swift in Sources */,
 				CACF076C2B4DFE5C000A312F /* Set.swift in Sources */,
 				CACF076E2B4DFE69000A312F /* Rep.swift in Sources */,
+				CAE765612B4F88D900764542 /* ExerciseWithSetsView.swift in Sources */,
 				CACF07762B4DFEE0000A312F /* HistoryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
