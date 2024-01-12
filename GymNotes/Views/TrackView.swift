@@ -13,7 +13,7 @@ struct TrackView: View {
             // HEADER
             TrackHeaderView()
             // Date navigator
-            TrackDateNavigatorView()
+            TrackDateNavigatorView(currentDate: Date.now)
             // Workout Log
             Spacer()
             Text ("Some Workouts")
