@@ -1,24 +1,21 @@
 //
-//  TrackHeaderView.swift
+//  NewExerciseHeaderView.swift
 //  GymNotes
 //
-//  Created by Brandon Chen on 1/9/24.
+//  Created by Brandon Chen on 1/13/24.
 //
-
 import SwiftUI
 
-struct TrackHeaderView: View {
-    var body: some View {     
+struct NewExerciseHeaderView: View {
+    var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 0).foregroundStyle(.mint);
             
             HStack {
                 Text("")
-                Text ("GymNotes").foregroundStyle(.black).bold()
+                Text ("All Exercises").foregroundStyle(.black).bold()
                 Spacer()
-                NavigationLink(destination: CalendarView(calendar: .current), label: {
-                    Image("calendar").resizable().frame(width:40, height:40)
-                })
+                Text("")
                 NavigationLink(destination: NewExerciseMainView(), label: {
                     Image("plus").resizable().frame(width:40, height:40)
                 })
@@ -33,5 +30,5 @@ struct TrackHeaderView: View {
 }
 
 #Preview {
-    TrackHeaderView()
+    NewExerciseHeaderView()
 }
